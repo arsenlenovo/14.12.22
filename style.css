@@ -26,20 +26,15 @@ nav ul {
   text-align: center;
  
 }
-h1 {
-  color: rgb(184, 64, 64);
-  padding-top: 100px;
-  padding-left: 200px;
+
+.img-1 {
+  padding-top: 180px;
+  margin-left: 200px;
 }
-h2 {
-  color: rgb(184, 64, 64);
-  padding-top: 0;
-  padding-left: 200px;
-}
-h3 {
-  color: white;
-  background-color: chartreuse;
+.img-2 {
   
+  
+
 }
 .container {
   background-image: url(/a.png);
