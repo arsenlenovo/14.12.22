@@ -25,7 +25,11 @@ nav ul {
   text-align: center;
  
 }
-
+p {
+  color: white;
+  padding-left: 1000px;
+  
+}
 .img-1 {
   padding-top: 180px;
   margin-left: 200px;
