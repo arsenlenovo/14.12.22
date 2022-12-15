@@ -11,7 +11,7 @@ nav ul li a {
   color: aliceblue;
   font-family: 'Segoe UI', Tahoma,;
   text-decoration: none;
-  
+
   padding-bottom: 0px;
   padding-left: 90px;
   padding-top: 30px;
@@ -25,9 +25,55 @@ nav ul {
   text-align: center;
  
 }
+.nav-1 .ul-1 .li-1 .a-1 {
+  color: aliceblue;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma,;
+  font-weight: 70px;
+  text-transform: uppercase;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  display: inline-block;
+}
+.nav-1 .ul-1 .li-1 {
+  display: inline;
+  margin-left: 0;
+  padding-bottom: 10000px;
+}
+.nav-1 .ul-1 {
+  text-align: center;
+  margin-right: 400px;
+  background-color: blue;
+  margin-left: 1100px;
+  
+}
+h1 {
+  color: rgb(184, 64, 64);
+  padding-top: 200px;
+  padding-left: 200px;
+}
+
+h2 {
+  color: rgb(184, 64, 64);
+  padding-top: 0px;
+  padding-left: 225px;
+}
 p {
   color: white;
   padding-left: 10px;
+  
+}
+.p-2 {
+  color: white;
+  padding-top: 50px;
+  padding-left: 800px;
+  position: absolute;
+
+}
+.p-3 {
+  margin-left: 240px;
   
 }
 .img-1 {
@@ -50,10 +96,57 @@ p {
 .img-4 {
   padding-left: 40px;
 }
+.img-5 {
+  margin-bottom: 0px;
+  padding-left: 170px;
+  min-width: 40px;
+  min-height: 4px;
+}
+.div-1 {
+  max-width: 60px;
+  min-height: 3px;
+  margin-left: 180px;
+  
+  background-color: rgb(255, 255, 255);
+}
+.div-2 {
+  max-width: 60px;
+  min-height: 3px;
+  margin-left: 370px;
+  
+  background-color: rgb(255, 255, 255);
+}
+
 .container {
   background-image: url(/a.png);
   width: 1440px;
   height: 800px;
+}
+
+
+section {
+  display: flex; 
+  height: 10vh;
+  flex-direction: row-reverse;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: stretch;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  
+  
+}
+section div {
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  height: 200px;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  padding: 10px;
+  margin: 100px;
+  text-align: center;
+  box-shadow: 0 30px 250px;
+  
 }
 
 
